@@ -3,9 +3,8 @@
 /**
  * main - Entry point
  *
- * Description: prints "Programming is like building a multilingual puzzle"
  *
- * Retrun: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
