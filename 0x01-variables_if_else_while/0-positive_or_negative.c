@@ -2,6 +2,13 @@
 #include<stdlib.h>
 #include<time.h>
 /* more headers go there */
+/**
+ * main - determine if number is negative positive or zero
+ *
+ * Description: program assigns number and determines if its negative zero or positive
+ *
+ * Return: Always 0 (Success)
+ */
 
 /*betty style doc for function main goes there */
 int main(void)
