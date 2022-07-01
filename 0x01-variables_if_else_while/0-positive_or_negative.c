@@ -5,7 +5,7 @@
 /**
  * main - determine if number is negative positive or zero
  *
- * Description: program assigns number and determines if its negative zero or positive
+ * Description: program assigns number
  *
  * Return: Always 0 (Success)
  */
@@ -21,8 +21,8 @@ int main(void)
 		printf("%d is positive\n", n);
 	else if (n == 0)
 		printf("%d is zero\n", n);
-	else 
+	else
 		printf("%d is negative\n", n);
 
 	return (0);
-}			
+}	
