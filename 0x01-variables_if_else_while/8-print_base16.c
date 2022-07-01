@@ -3,7 +3,7 @@
 /**
  * main - prints hexes
  *
- * Description: prints the hexadecimal 
+ * Description: prints the hexadecimal
  * numbers
  *
  * Return: Always 0 (Success)
