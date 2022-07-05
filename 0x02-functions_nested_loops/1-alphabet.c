@@ -8,16 +8,15 @@
  * Return: 0
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	int x;
-	x = 97;
+	char alpha = 'a';
 
-	while(x < 123)
+	while(alpha <= 'z')
 	{
-		_putchar(x);
-		x++;
+		_putchar(alpha);
+		alpha++;
 	}
-	_putchar (10);
+	_putchar ('\n');
 	return (0);
 }
