@@ -1,9 +1,9 @@
 #include "main.h"
-  
+
 /**
- * int _islower - checks alphabet islower
+ *  _islower - checks alphabet islower
  *
- * Description: checks alphabet islower
+ * @c: alphas in ascii
  *
  * Return: 1 if lower
  */
