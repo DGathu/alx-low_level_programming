@@ -1,18 +1,18 @@
 #include "main.h"
-  
+
 /**
  * main - prints alphabet
  *
- * Description: a-z
+ * Description: print alphabet
  *
- * Return: 0
+ * Return: void
  */
 
 void print_alphabet(void)
 {
 	char alpha = 'a';
 
-	while(alpha <= 'z')
+	while (alpha <= 'z')
 	{
 		_putchar(alpha);
 		alpha++;
