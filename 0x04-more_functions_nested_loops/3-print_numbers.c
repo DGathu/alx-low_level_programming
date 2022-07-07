@@ -12,7 +12,8 @@
 void print_numbers(void)
 {
 	int x;
-	while (x = '0'; x < '10'; x++)
+	
+	for (x = '0'; x <= '9'; x++)
 	{
 		_putchar(x);
 	}
