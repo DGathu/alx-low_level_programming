@@ -27,5 +27,7 @@ int _atoi(char *s)
 		}
 	}
 	while (*s++);
-	return (x * sign);
+	{
+		return (x * sign);
+	}
 }
