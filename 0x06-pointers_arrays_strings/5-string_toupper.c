@@ -7,10 +7,9 @@
  * Return: String
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *c)
 {
 	int x = 0;
-	char c;
 
 	for (x = 0; c[x] != '\0'; x++)
 	{
