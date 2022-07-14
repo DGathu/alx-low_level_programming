@@ -3,6 +3,7 @@
 
 /**
  * string_toupper - changes to upper
+ * @c: string
  *
  * Return: String
  */
