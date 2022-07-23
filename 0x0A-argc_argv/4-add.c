@@ -38,7 +38,7 @@ int is_num(char *s)
 
 int main(int argc, char *argv[])
 {
-	int x, s, is-num;
+	int x, s, isnum;
 
 	s = 0;
 	if (argc == 1)
@@ -50,10 +50,10 @@ int main(int argc, char *argv[])
 		x = 1;
 		while (x < argc)
 		{
-			is-num = is_num(argv[x]);
-			if (is-num == 1)
+			isnum = is_num(argv[x]);
+			if (isnum == 1)
 			{
-				s += atoi(argv[i]);
+				s += atoi(argv[x]);
 			}
 			else
 			{
