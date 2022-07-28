@@ -25,7 +25,7 @@ int _strlen(char *string)
  * string_nconcat - concatenates two strings
  * @s1: string 1
  * @s2: string 2
- * *n: integer
+ * @n: integer
  * Return: pointer
  */
 
@@ -63,7 +63,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		ptr[x] = s1[x];
 	}
-	for(y = 0; y < no; y++)
+	for (y = 0; y < no; y++)
 	{
 		ptr[x + y] = s2[y];
 	}
