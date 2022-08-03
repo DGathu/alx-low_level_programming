@@ -8,7 +8,7 @@
 typedef struct op
 {
 	char *op;
-	int (*f)(int a, int b);
+	int (*f)(int x, int y);
 }
 op_t;
 int op_add(int x, int y);

@@ -14,8 +14,8 @@ int (*get_op_func(char *s))(int, int)
 	int a;
 
 	op_t ops[] = {
-		{"+", op-add},
-		{"-", op-sub},
+		{"+", op_add},
+		{"-", op_sub},
 		{"*", op_mul},
 		{"/", op_div},
 		{"%", op_mod},
