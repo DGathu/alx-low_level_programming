@@ -67,7 +67,7 @@ void print_all(const char * const format, ...)
 	int x, z = 0;
 	va_list list;
 
-	datatype choice[] = { 
+	datatype choice[] = {
 		{'c', print_char},
 		{'i', print_int},
 		{'f', print_float},
