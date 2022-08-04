@@ -67,7 +67,7 @@ void print_all(const char * const format, ...)
 	int x, z = 0;
 	va_list list;
 
-	type choice[] = { 
+	datatype choice[] = { 
 		{'c', print_char},
 		{'i', print_int},
 		{'f', print_float},
@@ -79,9 +79,9 @@ void print_all(const char * const format, ...)
 	while (format != NULL && format[z] != '\0')
 	{
 		x = 0;
-		while (choice[x].lett != '\0')
+		while (choice[x].letter != '\0')
 		{
-			if (choice[x].lett == format[z])
+			if (choice[x].letter == format[z])
 			{
 				printf("%s", separator);
 				choice[x].func(list);
