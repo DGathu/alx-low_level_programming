@@ -3,7 +3,7 @@
 /**
  * get_endianness - checks the endianness
  *
- * Returns: value stored
+ * Return: value stored
  */
 
 int get_endianness(void)
